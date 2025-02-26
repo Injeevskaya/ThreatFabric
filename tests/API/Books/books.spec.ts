@@ -51,7 +51,7 @@ test.describe('books API Tests', () => {
         expect(invalidISBNIdResponseBody).toEqual({});
     });
 
-    test.only('Return JSON format when requested', async ({ request }) => {
+    test('Return JSON format when requested', async ({ request }) => {
         const response = await request.get(apiURL + `/books?bibkeys=ISBN:${isbnId}&format=json&`);
         expect(response.status()).toBe(200);
         expect(response.headers()['content-type']).toContain('application/json');
