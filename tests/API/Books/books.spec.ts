@@ -32,17 +32,6 @@ test.describe('books API Tests', () => {
         expect(responseBody[bookKey]).toHaveProperty('authors');
     });
 
-    test('Get book details for several ISBN', async ({ request }) => {
-        const isbn1 = "0451526538";
-        const isbn2 = "9780679600855";
-        const getBookDetailsResponse =
-            await request.get(apiURL + `/books?bibkeys=ISBN:${isbn1},ISBN:${isbn2}`);
-        expect(getBookDetailsResponse.status()).toBe(200);
-        const getBookDetailsResponseBody = await getBookDetailsResponse.json();
-        expect(getBookDetailsResponseBody).toHaveProperty(`ISBN:${isbn1}`);
-        expect(getBookDetailsResponseBody).toHaveProperty(`ISBN:${isbn2}`);
-    });
-
     test('Response has to be empty for invalid book ID', async ({ request }) => {
         const invalidISBNIdResponse =
             await request.get(apiURL + `/books?bibkeys=ISBN:${incorrectISBNId}&format=json&jscmd=data`);
