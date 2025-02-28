@@ -11,14 +11,15 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: [
+    ['html', { open: 'never' }],
+    ['list', { printSteps: true }],
+    ['playwright-ctrf-json-reporter', {outputFile: 'test-results.json' }]
+  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+    testIdAttribute: 'data-test',
     
-    baseURL: process.env.UI_URL,
-    extraHTTPHeaders: {
-      'Accept': 'application/json', 
-    },
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
   },
