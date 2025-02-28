@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
-import { HomePage } from '../../pages/HomePage';
-import { SearchResultsPage } from '../../pages/SearchResultsPage';
-import { AuthorPage } from '../../pages/AuthorPage';
-import { AdvancedSearchPage } from '../../pages/AdvancedSearchPage';
+import { HomePage } from '../../../pages/HomePage';
+import { SearchResultsPage } from '../../../pages/SearchResultsPage';
+import { AuthorPage } from '../../../pages/AuthorPage';
+import { AdvancedSearchPage } from '../../../pages/AdvancedSearchPage';
 
 test('Advanced search and validate top-rated book by J.K. Rowling', async ({ page }) => {
 
