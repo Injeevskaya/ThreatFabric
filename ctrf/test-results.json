@@ -1,0 +1,626 @@
+{
+  "results": {
+    "tool": {
+      "name": "playwright"
+    },
+    "summary": {
+      "tests": 33,
+      "passed": 27,
+      "failed": 6,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "start": 1740949954876,
+      "stop": 1740949998602,
+      "suites": 0
+    },
+    "tests": [
+      {
+        "name": "Validating response structure",
+        "status": "passed",
+        "duration": 529,
+        "start": 1740949955,
+        "stop": 1740949955,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/books.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > API/Books/books.spec.ts > books API Tests",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Get book details with valid ISBN",
+        "status": "passed",
+        "duration": 547,
+        "start": 1740949955,
+        "stop": 1740949955,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/books.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > API/Books/books.spec.ts > books API Tests",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Response has to be empty for invalid book ID",
+        "status": "passed",
+        "duration": 529,
+        "start": 1740949955,
+        "stop": 1740949955,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/books.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > API/Books/books.spec.ts > books API Tests",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Return JSON format when requested",
+        "status": "passed",
+        "duration": 535,
+        "start": 1740949955,
+        "stop": 1740949955,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/books.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > API/Books/books.spec.ts > books API Tests",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching a book by isbn and check title and author name 0451526538",
+        "status": "passed",
+        "duration": 847,
+        "start": 1740949955,
+        "stop": 1740949956,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > API/Books/searchByISBN.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching a book by isbn and check title and author name 9780679600855",
+        "status": "passed",
+        "duration": 841,
+        "start": 1740949955,
+        "stop": 1740949956,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > API/Books/searchByISBN.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching a book by isbn and check title and author name 0486415872",
+        "status": "passed",
+        "duration": 982,
+        "start": 1740949955,
+        "stop": 1740949956,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > API/Books/searchByISBN.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching a book by isbn and check title and author name 9780140449136 ",
+        "status": "passed",
+        "duration": 1432,
+        "start": 1740949955,
+        "stop": 1740949957,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > API/Books/searchByISBN.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching book by title and get authot key",
+        "status": "passed",
+        "duration": 852,
+        "start": 1740949956,
+        "stop": 1740949957,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > API/Books/searchByTitleAndAutor.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Login, find book with \"Read\" CTA, and verify it in \"Currently Reading\"",
+        "status": "failed",
+        "duration": 23534,
+        "start": 1740949956,
+        "stop": 1740949980,
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "trace": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at /Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/UI/other/readBookCTA.spec.ts:29:40",
+        "rawStatus": "failed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/UI/other/readBookCTA.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > UI/other/readBookCTA.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Advanced search and validate top-rated book by J.K. Rowling",
+        "status": "failed",
+        "duration": 5766,
+        "start": 1740949956,
+        "stop": 1740949962,
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Harry Potter and the Half-Blood Prince\"\u001b[39m\nReceived string:    \u001b[31m\"Harry Potter and the Prisoner of Azkaban\"\u001b[39m",
+        "trace": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Harry Potter and the Half-Blood Prince\"\u001b[39m\nReceived string:    \u001b[31m\"Harry Potter and the Prisoner of Azkaban\"\u001b[39m\n    at /Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/UI/search/advancedSearch.spec.ts:32:19",
+        "rawStatus": "failed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/UI/search/advancedSearch.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > UI/search/advancedSearch.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Validating response structure",
+        "status": "passed",
+        "duration": 529,
+        "start": 1740949957,
+        "stop": 1740949957,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/books.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > API/Books/books.spec.ts > books API Tests",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Get book details with valid ISBN",
+        "status": "passed",
+        "duration": 516,
+        "start": 1740949957,
+        "stop": 1740949957,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/books.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > API/Books/books.spec.ts > books API Tests",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Response has to be empty for invalid book ID",
+        "status": "passed",
+        "duration": 209,
+        "start": 1740949957,
+        "stop": 1740949957,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/books.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > API/Books/books.spec.ts > books API Tests",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Return JSON format when requested",
+        "status": "passed",
+        "duration": 221,
+        "start": 1740949957,
+        "stop": 1740949958,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/books.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > API/Books/books.spec.ts > books API Tests",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching a book by isbn and check title and author name 0451526538",
+        "status": "passed",
+        "duration": 851,
+        "start": 1740949958,
+        "stop": 1740949958,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > API/Books/searchByISBN.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching a book by isbn and check title and author name 9780679600855",
+        "status": "passed",
+        "duration": 794,
+        "start": 1740949958,
+        "stop": 1740949958,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > API/Books/searchByISBN.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching a book by isbn and check title and author name 0486415872",
+        "status": "passed",
+        "duration": 975,
+        "start": 1740949958,
+        "stop": 1740949959,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > API/Books/searchByISBN.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching a book by isbn and check title and author name 9780140449136 ",
+        "status": "passed",
+        "duration": 1387,
+        "start": 1740949958,
+        "stop": 1740949960,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > API/Books/searchByISBN.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching book by title and get authot key",
+        "status": "passed",
+        "duration": 687,
+        "start": 1740949959,
+        "stop": 1740949960,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > API/Books/searchByTitleAndAutor.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Login, find book with \"Read\" CTA, and verify it in \"Currently Reading\"",
+        "status": "failed",
+        "duration": 30015,
+        "start": 1740949960,
+        "stop": 1740949990,
+        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+        "trace": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+        "rawStatus": "timedOut",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/UI/other/readBookCTA.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > UI/other/readBookCTA.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Advanced search and validate top-rated book by J.K. Rowling",
+        "status": "failed",
+        "duration": 6458,
+        "start": 1740949960,
+        "stop": 1740949966,
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Harry Potter and the Half-Blood Prince\"\u001b[39m\nReceived string:    \u001b[31m\"Harry Potter and the Prisoner of Azkaban\"\u001b[39m",
+        "trace": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Harry Potter and the Half-Blood Prince\"\u001b[39m\nReceived string:    \u001b[31m\"Harry Potter and the Prisoner of Azkaban\"\u001b[39m\n    at /Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/UI/search/advancedSearch.spec.ts:32:19",
+        "rawStatus": "failed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/UI/search/advancedSearch.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > UI/search/advancedSearch.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Validating response structure",
+        "status": "passed",
+        "duration": 542,
+        "start": 1740949962,
+        "stop": 1740949963,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/books.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > API/Books/books.spec.ts > books API Tests",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Get book details with valid ISBN",
+        "status": "passed",
+        "duration": 259,
+        "start": 1740949963,
+        "stop": 1740949963,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/books.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > API/Books/books.spec.ts > books API Tests",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Response has to be empty for invalid book ID",
+        "status": "passed",
+        "duration": 220,
+        "start": 1740949963,
+        "stop": 1740949963,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/books.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > API/Books/books.spec.ts > books API Tests",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Return JSON format when requested",
+        "status": "passed",
+        "duration": 211,
+        "start": 1740949963,
+        "stop": 1740949963,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/books.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > API/Books/books.spec.ts > books API Tests",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching a book by isbn and check title and author name 0451526538",
+        "status": "passed",
+        "duration": 809,
+        "start": 1740949963,
+        "stop": 1740949964,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > API/Books/searchByISBN.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching a book by isbn and check title and author name 9780679600855",
+        "status": "passed",
+        "duration": 866,
+        "start": 1740949964,
+        "stop": 1740949965,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > API/Books/searchByISBN.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching a book by isbn and check title and author name 0486415872",
+        "status": "passed",
+        "duration": 984,
+        "start": 1740949965,
+        "stop": 1740949966,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > API/Books/searchByISBN.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching a book by isbn and check title and author name 9780140449136 ",
+        "status": "passed",
+        "duration": 1808,
+        "start": 1740949966,
+        "stop": 1740949968,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > API/Books/searchByISBN.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Searching book by title and get authot key",
+        "status": "passed",
+        "duration": 1102,
+        "start": 1740949968,
+        "stop": 1740949969,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/API/Books/search.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > API/Books/searchByTitleAndAutor.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Login, find book with \"Read\" CTA, and verify it in \"Currently Reading\"",
+        "status": "failed",
+        "duration": 30015,
+        "start": 1740949968,
+        "stop": 1740949998,
+        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+        "trace": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+        "rawStatus": "timedOut",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/UI/other/readBookCTA.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > UI/other/readBookCTA.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Advanced search and validate top-rated book by J.K. Rowling",
+        "status": "failed",
+        "duration": 17570,
+        "start": 1740949969,
+        "stop": 1740949986,
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Harry Potter and the Half-Blood Prince\"\u001b[39m\nReceived string:    \u001b[31m\"Harry Potter and the Prisoner of Azkaban\"\u001b[39m",
+        "trace": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Harry Potter and the Half-Blood Prince\"\u001b[39m\nReceived string:    \u001b[31m\"Harry Potter and the Prisoner of Azkaban\"\u001b[39m\n    at /Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/UI/search/advancedSearch.spec.ts:32:19",
+        "rawStatus": "failed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assignments/ThreatFabric/tests/UI/search/advancedSearch.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > UI/search/advancedSearch.spec.ts",
+        "extra": {
+          "annotations": []
+        }
+      }
+    ]
+  }
+}

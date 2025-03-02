@@ -26,7 +26,7 @@ export class HomePage {
   }
 
   async goto() {
-    await this.page.goto('https://openlibrary.org',  {waitUntil: "load"});
+    await this.page.goto('/',  {waitUntil: "load"});
   }
 
   async openAdvancedSearch() {

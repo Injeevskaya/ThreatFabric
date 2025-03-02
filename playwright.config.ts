@@ -1,4 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
+import dotenv from 'dotenv';
+import path from 'path';
+
+dotenv.config({ path: path.resolve(__dirname, '.env') });
 
 export default defineConfig({
   testDir: './tests',
@@ -14,16 +18,14 @@ export default defineConfig({
   reporter: [
     ['html', { open: 'never' }],
     ['list', { printSteps: true }],
-    ['playwright-ctrf-json-reporter', {outputFile: 'test-results.json' }]
+    ['playwright-ctrf-json-reporter', { outputFile: 'test-results.json' }]
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     testIdAttribute: 'data-test',
-    
-    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+    baseURL: process.env.BASE_URL,
     trace: 'on-first-retry',
   },
-
   /* Configure projects for major browsers */
   projects: [
     {

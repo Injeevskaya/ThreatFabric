@@ -3,7 +3,7 @@ import { Page, Locator } from '@playwright/test';
 export class MyBooksPage {
   readonly page: Page;
   readonly currentlyReadingSection: Locator;
-  readonly currentlyReadingCount: Locator; // New locator for the count
+  readonly currentlyReadingCount: Locator;
 
   constructor(page: Page) {
     this.page = page;
