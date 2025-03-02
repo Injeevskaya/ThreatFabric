@@ -76,7 +76,8 @@ npx playwright show-report
 
 ### UI tests
 
-1. **AdvancedSearch.spec.ts:** User can search for a book using the advanced search feature. User can see the Top rated book on the author page. 
+1. **AdvancedSearch.spec.ts:** User can search for a book using the advanced search feature. User can see the Top rated book on the author page.
+   
 **Expected Result:**
 Validate that her top-rated work is ‘Harry Potter and the Half-Blood Prince’
 
@@ -86,8 +87,10 @@ The Top-rated work is Harry Potter and the Prisoner of Azkaban
 ![alt text](image.png)
 
 1. **Currently Reading Validation:** User can add a book to "Currently Reading" and verify it appears on the sidebar.
+
 **Expected Result:**
 Validate that a book checked out for reading should be dispalayed on the side bar in the reading status.
+
 **Effective Result:**
 Count is not changed on the user page:
 ![alt text](image-2.png)
