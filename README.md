@@ -9,7 +9,7 @@ This project automates UI and API testing using [Playwright](https://playwright.
 - Jest for assertions
 
 ## Project Structure
-```
+```git 
 ├── tests/API/Books
 │   ├── books.test.ts            # Tests books API Schema
 │   ├── search.ts                # Endpoint function library test cases

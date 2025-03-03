@@ -21,7 +21,6 @@ export class AuthorPage {
 
   async getTopRatedBookTitle() {
     const firstBookResult = await this.page.locator('#searchResults ul li').first();
-    console.log(firstBookResult);
     return await firstBookResult.locator('a.results').innerText();
   }
 }
