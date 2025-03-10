@@ -7,7 +7,8 @@ export class MyBooksPage {
 
   constructor(page: Page) {
     this.page = page;
-    this.currentlyReadingSection = page.locator('a[data-ol-link-track="MyBooksSidebar|CurrentlyReading"]'); 
+    //this.currentlyReadingSection = page.locator('a[data-ol-link-track="MyBooksSidebar|CurrentlyReading"]');
+    this.currentlyReadingSection = page.locator('.sidebar-section', { hasText: 'Reading Log' }).locator('li').nth(1);
     this.currentlyReadingCount = this.currentlyReadingSection.locator('.li-count'); 
   
   }
