@@ -9,9 +9,9 @@ test('Login, find book with "Read" CTA, and verify it in "Currently Reading"', a
     const myBooksPage = new MyBooksPage(page);
     const loginPage = new LoginPage(page);
 
-    const username = 'tatyana.injeevskaya@gmail.com';
-    const password = 'OcGACfnt5%6OcGACfnt';
-    const userTitle = 'tatiinzhee';
+    const username;
+    const password
+    const userTitle;
 
     await homePage.goto();
     await homePage.clickOnLoginButton();

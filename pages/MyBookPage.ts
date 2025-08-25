@@ -10,7 +10,7 @@ export class MyBooksPage {
     //this.currentlyReadingSection = page.locator('a[data-ol-link-track="MyBooksSidebar|CurrentlyReading"]');
     this.currentlyReadingSection = page.locator('.sidebar-section', { hasText: 'Reading Log' }).locator('li').nth(1);
     this.currentlyReadingCount = this.currentlyReadingSection.locator('.li-count'); 
-  
+
   }
 
   async openCurrentlyReading() {
